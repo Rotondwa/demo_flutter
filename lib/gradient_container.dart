@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-
+import 'package:demo_app/custom_text.dart';
 
 class GradientContainer extends StatelessWidget{
   const GradientContainer({super.key});
@@ -21,12 +21,7 @@ class GradientContainer extends StatelessWidget{
               ),
             ),
             child: const Center(
-              child: Text(
-                'Rotondwa', 
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 23,
-                  )),
+              child: CustomText()
             ),
           );
   }
