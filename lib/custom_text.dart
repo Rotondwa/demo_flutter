@@ -1,19 +1,19 @@
-
 import 'package:flutter/material.dart';
 
-class CustomText extends StatelessWidget{
-  const CustomText({
-    super.key
-  });
+class CustomText extends StatelessWidget {
+  
+  //  class variables
+  final String text;
+  
+  const CustomText(this.text, {super.key});
 
   @override
-  Widget build(BuildContext context){
-    return const Text(
-            'Rotondwa2', 
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 23,
-              )
-            );
+  Widget build(BuildContext context) {
+    return Text(
+        text,
+        style: const TextStyle(
+          color: Colors.white,
+          fontSize: 23,
+        ));
   }
 }

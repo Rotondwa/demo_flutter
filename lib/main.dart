@@ -3,12 +3,11 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-     const MaterialApp( 
+     MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.green,
-          body: GradientContainer(), 
+        body: GradientContainer([Color.fromARGB(255, 13, 24, 177),Color.fromARGB(255, 12, 8, 53) ]),
       ),
     ),
   );
 }
-
